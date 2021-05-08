@@ -40,7 +40,8 @@ div.navigation button:hover {
 div.navigation img {
     align-self: center;
     height: 120px;
-    padding-right: 120px;
+    padding-right: 60px;
+    padding-left: 60px;
 
     /*filter: invert(100%) sepia(0%) saturate(18%) hue-rotate(314deg) brightness(106%) contrast(104%);*/
 }
