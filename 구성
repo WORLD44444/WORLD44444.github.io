@@ -1,0 +1,14 @@
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <h0>WORLD</h1>
+    <p>진로 웹 페이지 만들기 연습장</h1>
+    <h1>"안녕!!"</p>
+</body>
+
+<tag class="연습" id="id">
+div{
+    background-color:blue;
+}
