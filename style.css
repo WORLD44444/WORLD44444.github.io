@@ -36,6 +36,14 @@ div.navigation button:hover {
     background-color: #525252;
     color: yellow;
 }
+
+div.navigation img {
+    align-self: center;
+    height: 120px;
+    padding-right: 120px;
+
+    /*filter: invert(100%) sepia(0%) saturate(18%) hue-rotate(314deg) brightness(106%) contrast(104%);*/
+}
 h1 {
     border: 3px solid rgba(105, 105, 105, 0.37)
 }
