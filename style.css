@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600&display=swap');
+
+div {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+    text-align: canter;
+
+    width: 100%;
+
+    border: 3px solid rgba(105, 105, 105, 0.37)
+}
+
+div.navigation{
+    background-color: #5a5a5a; 
+    height:140px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+div.navigation button {
+    background-color: #00000000;
+    border: 0px;
+
+    color: white;
+    height: inherit;
+    width: 120px;
+    text-align: center;
+}
+
+div.navigation button:hover {
+    /*마우스 커서를 가져다 댔을 때 변화 */
+    background-color: #525252;
+    color: yellow;
+}
+h1 {
+    border: 3px solid rgba(105, 105, 105, 0.37)
+}

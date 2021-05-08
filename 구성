@@ -8,7 +8,7 @@
     <h1>"안녕!!"</p>
 </body>
 
-<tag class="연습" id="id">
+<tag class="클래스" id="id">
 div{
     background-color:blue;
 }
