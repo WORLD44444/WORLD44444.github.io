@@ -9,7 +9,7 @@ div {
 
     /* border: 3px solid rgba(105, 105, 105, 0.37) */
 }
-
+/*padding:요소 내부에서의여백, margin:요소 바깥에서의 여백*/
 div.navigation{
     background-color: #3b3b3b; 
     height:140px;
@@ -124,4 +124,152 @@ h1 {
     text-align: left;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+div.card-history button {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #f8ba0fd7;
+    text-align: center;
+
+    background-color: rgb(53, 64, 66);
+    border: #f1bc0d solid;
+    border-radius: 50px;
+    border-width: 1.5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.card-history button:hover {
+    background-color: #0000001c;
+    color: #f1bc0d;
+}
+
+.title h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 40px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+#book2 {
+    background-color: rgb(227, 253, 252);
+}
+
+#book2 .wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+div.card-container {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+div.card-history {
+    width: 500px;
+    background-color: #ffffff;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px #AAAAAA;
+    margin: 20px;
+
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-history img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.card-history .text-box {
+    padding: 15px;
+    width: auto;
+    height: fit-content;
+}
+
+.card-history button {
+    align-self: center;
+    width: 80%;
+    margin: 20px;
+}
+
+#book3 {
+    background-color: #4e7ac7;
+}
+
+#book3 .title {
+    color: white;
+}
+
+#book3 .wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: fit-content;
+    
+    margin: 20px;
+}
+
+.article-img-container {
+    width: fit-content;
+    height: fit-content;
+}
+
+.article-img-container img {
+    width: 400px;
+    height: 215px;
+    object-fit: cover;
+}
+
+div.article-desc-container button {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #f8ba0fd7;
+    text-align: center;
+
+    background-color: rgb(53, 64, 66);
+    border: #f1bc0d solid;
+    border-radius: 50px;
+    border-width: 1.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.article-desc-container button:hover {
+    background-color: #0000001c;
+    color: #f1bc0d;
+}
+
+.article-desc-container {
+    width: 80%;
+    padding: 20px;
+}
+
+.article-desc-container .text-box {
+    height: 120px;
+}
+
+.article-desc-container button {
+    width: 250px;
+    float: right;
+    margin-top: 10px;
 }

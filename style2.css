@@ -1,0 +1,20 @@
+div.지령 button {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #f8ba0fd7;
+    text-align: center;
+
+    background-color: rgb(53, 64, 66);
+    border: #f1bc0d solid;
+    border-radius: 50px;
+    border-width: 1.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+div.지령 button:hover {
+    background-color: #0000001c;
+    color: #f1bc0d;
+}
