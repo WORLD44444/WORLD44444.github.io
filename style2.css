@@ -18,3 +18,16 @@ div.지령 button:hover {
     background-color: #0000001c;
     color: #f1bc0d;
 }
+
+div.얀설명{
+    background-color: #4e4e4e; 
+    height:90px;
+
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+    margin: 20px;
+}
