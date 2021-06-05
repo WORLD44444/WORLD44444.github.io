@@ -1,0 +1,26 @@
+<head>
+    <meta charset="utf-8">
+    <title>jQuery</title>
+    <style>
+      h1.fi {
+        display: none;
+      }
+    </style>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $( document ).ready( function() {
+        $( 'h1.fi' ).fadeIn( 2000 );
+      } );
+    </script>
+    <script>
+        $( document ).ready( function() {
+        $( 'button.a' ).click( function() {
+            $( 'h1.sw' ).fadeOut( 2000, 'swing' );
+            $( 'h1.ln' ).fadeOut( 2000, 'linear');
+        } );
+        } );
+    </script>
+</head>
+<body>
+    <h1 class="fi" style= color:rgb(214,66,60);padding:20px;text-align:center;line-height:200%;><b>두려워 하지 말라.<br>내가 너와 함께함이라.<br>너는 내가 허락할 때까지<br>나를 떠날 수 없다.</b></h1>
+</body>
